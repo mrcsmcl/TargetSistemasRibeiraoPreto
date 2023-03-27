@@ -1,0 +1,160 @@
+\documentclass{assignment}
+\usepackage[T1]{fontenc}            
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{listings}
+\usepackage{amsmath} % pacote para utilizar o ambiente equation*
+\usepackage{listings} % for including code
+\lstset{
+	language=R,   % R code
+	literate=
+	{á}{{\'a}}1
+	{à}{{\`a}}1
+	{ã}{{\~a}}1
+	{é}{{\'e}}1
+	{ê}{{\^e}}1
+	{í}{{\'i}}1
+	{ó}{{\'o}}1
+	{õ}{{\~o}}1
+	{ú}{{\'u}}1
+	{ü}{{\"u}}1
+	{ç}{{\c{c}}}1
+}
+
+
+\begin{document}
+
+\assignmentTitle{Marcos Candido}{}{}{\newline\newline\newline Target Sistemas}{Respostas}
+
+\section*{QUESTÃO 1}
+
+O valor final da variável SOMA será 91.
+
+O trecho de código apresentado utiliza um laço de repetição do tipo "enquanto" para calcular a soma dos números inteiros de 1 a 13.
+
+Inicialmente, as variáveis INDICE, SOMA e K são inicializadas com os valores 13, 0 e 0, respectivamente. Em seguida, o laço de repetição "enquanto" é executado enquanto a variável K for menor que INDICE. Dentro do laço, o valor de K é incrementado em 1 a cada iteração e o valor de SOMA é atualizado somando-se a ele o valor de K.
+
+Dessa forma, o laço executa 13 iterações, somando os números inteiros de 1 a 13. Ao final do laço, o valor final da variável SOMA será a soma de todos esses números, que pode ser calculado usando uma progressão aritmética. Portanto, o valor final da variável SOMA será 91.
+
+\section*{QUESTÃO 2}
+
+O código foi implementado em C\# no Visual Studio na Solução TargetSistemasRibeirãoPreto, que se encontra neste repositório, porém, também, segue o código abaixo:
+\\
+
+\lstinputlisting[language=C]{../PERGUNTA2/Program.cs}
+
+\section*{QUESTÃO 3}
+
+a) O próximo número é 9. A sequência é formada por números ímpares, aumentando de 2 em 2.
+\newline
+
+$b_n = 2n - 1$
+
+$b_1 = 2\cdot1 - 1 = 1$
+
+$b_2 = 2\cdot2 - 1 = 3$
+
+$b_3 = 2\cdot3 - 1 = 5$
+
+$b_4 = 2\cdot4 - 1 = 7$
+
+$b_5 = 2\cdot5 - 1 = 9$ (próximo número)
+\newline
+
+b) O próximo número é 128. A sequência é formada por potências de 2, dobrando a cada termo.
+\newline
+
+$c_n = 2^n$
+
+$c_1 = 2^1 = 2$
+
+$c_2 = 2^2 = 4$
+
+$c_3 = 2^3 = 8$
+
+$c_4 = 2^4 = 16$
+
+$c_5 = 2^5 = 32$
+
+$c_6 = 2^6 = 64$
+
+$c_7 = 2^7 = 128$ (próximo número)
+\newpage
+
+c) O próximo número é 49. A sequência é formada pelos quadrados dos números naturais, começando em 0.
+\newline
+
+$d_n = n^2$
+
+$d_0 = 0^2 = 0$
+
+$d_1 = 1^2 = 1$
+
+$d_2 = 2^2 = 4$
+
+$d_3 = 3^2 = 9$
+
+$d_4 = 4^2 = 16$
+
+$d_5 = 5^2 = 25$
+
+$d_6 = 6^2 = 36$
+
+$d_7 = 7^2 = 49$ (próximo número)
+\newline
+
+d) O próximo número é 100. A sequência é formada pelos quadrados dos números pares, começando em 2.
+\newline
+
+$e_n = (2n)^2$
+
+$e_1 = (2\cdot1)^2 = 4$
+
+$e_2 = (2\cdot2)^2 = 16$
+
+$e_3 = (2\cdot3)^2 = 36$
+
+$e_4 = (2\cdot4)^2 = 64$
+
+$e_5 = (2\cdot5)^2 = 100$ (próximo número)
+\newline
+
+e) O próximo número é 13. A sequência é formada pela soma dos dois números anteriores, começando com 1 e 1 (sequência de Fibonacci).
+\newline
+
+$f_n = f_{n-1} + f_{n-2}$
+
+$f_1 = 1$
+
+$f_2 = 1$
+
+$f_3 = 1 + 1 = 2$
+
+$f_4 = 1 + 2 = 3$
+
+$f_5 = 2 + 3 = 5$
+
+$f_6 = 3 + 5 = 8$
+
+$f_7 = 5 + 8 = 13$ (próximo número)
+\newline
+
+f) O próximo número é 20. A sequência parece não seguir um padrão claro, mas é possível notar que cada número é o número anterior mais algum valor. Podemos observar que o valor que é adicionado começa em 8 e diminui por 2 a cada termo. Portanto, temos a seguinte sequência: 2, 10, 12, 16, 17, 18, 19, 20.
+\newline
+
+\section*{QUESTÃO 4}
+
+Os dois veículos (o carro e o caminhão) estão se aproximando um do outro em direção ao ponto de encontro na estrada. Quando eles se encontram, ambos estarão a mesma distância da cidade de Ribeirão Preto.
+
+No entanto, a distância que cada um dos veículos percorreu para chegar ao ponto de encontro é diferente. O carro estava mais distante de Ribeirão Preto, então percorreu a distância em velocidade maior para chegar ao ponto de encontro. O caminhão, por sua vez, estava mais perto de Ribeirão Preto, então percorreu uma distância menor em uma velocidade menor.
+
+Mas, apesar de terem percorrido distâncias diferentes para chegar ao ponto de encontro, quando eles se cruzarem estarão na mesma distância da cidade de Ribeirão Preto.
+
+\section*{QUESTÃO 5}
+
+O código foi implementado em C\# no Visual Studio na Solução TargetSistemasRibeirãoPreto, que se encontra neste repositório, porém, também, segue o código abaixo:
+\\
+
+\lstinputlisting[language=C, inputencoding=utf8]{../PERGUNTA5/Program.cs}
+
+\end{document}

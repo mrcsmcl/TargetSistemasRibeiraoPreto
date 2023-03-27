@@ -1,0 +1,8 @@
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\bin\Debug\PERGUNTA2.exe.config
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\bin\Debug\PERGUNTA2.exe
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\bin\Debug\PERGUNTA2.pdb
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\obj\Debug\PERGUNTA2.csproj.AssemblyReference.cache
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\obj\Debug\PERGUNTA2.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\obj\Debug\PERGUNTA2.csproj.CoreCompileInputs.cache
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\obj\Debug\PERGUNTA2.exe
+C:\Users\mrcsm\Documents\GitHub\TargetSistemasRibeirãoPreto\PERGUNTA2\obj\Debug\PERGUNTA2.pdb
